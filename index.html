@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorateur de Pays - VibeCoder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌍 Explorateur de Pays</h1>
+            <p>Découvrez des informations sur différents pays du monde</p>
+        </header>
+        
+        <div class="search-section">
+            <input type="text" id="country-input" placeholder="Entrez le nom d'un pays (en anglais)">
+            <button id="search-btn">Rechercher</button>
+        </div>
+        
+        <div id="loading" class="hidden">
+            <p>Chargement des données...</p>
+        </div>
+        
+        <div id="country-info" class="hidden">
+            <!-- Les informations du pays seront affichées ici -->
+        </div>
+        
+        <div id="error-message" class="hidden">
+            <!-- Les messages d'erreur seront affichés ici -->
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
